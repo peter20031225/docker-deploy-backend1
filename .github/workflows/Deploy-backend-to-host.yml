@@ -44,7 +44,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: yu11001/234-deploylab-backend:latest
+          tags: peterjie/234-deploylab-backend:latest
       -
         name: copy file via ssh password
         uses: appleboy/scp-action@v0.1.4
